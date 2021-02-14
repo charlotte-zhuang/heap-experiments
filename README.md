@@ -18,12 +18,12 @@ Initial testing suggests that binary heaps are really good. With enough decrease
 ## Usage
 
 1. Requires Python 3.9, [website](https://www.python.org)
-2. Run `heap/app/main.py`
+2. Run `heap-experiments/app/main.py`
 
 Linux/Mac
 
 ```zsh
-cd ./heap
+cd ./heap-experiments
 chmod 755 ./app/main.py  # give permission for the script to run
 ./app/main.py
 ```
