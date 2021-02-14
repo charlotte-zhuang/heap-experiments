@@ -1,0 +1,4 @@
+type      graph
+name      complete
+vertices  2500
+edges     3123750

@@ -40,7 +40,7 @@ DEFAULT_OPTIONS = {
 
 
 def main():
-    """Runs the heap tester."""
+    """Starts the heap tester."""
 
     print(
         "\n==================\n"

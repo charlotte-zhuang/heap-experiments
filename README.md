@@ -2,7 +2,7 @@
 
 This is a work in progress to test the performance of different heap structures against each other.
 
-Initial testing suggests that binary heaps are really good. With enough decrease key operations, pairing and Fibonacci heaps gain parity; however even on very dense graphs, binary heaps outperform. Pairing heaps are consistently better than Fibonacci heaps.
+Initial testing suggests that binary heaps are really good. With enough decrease key operations and a large enough heap, pairing and Fibonacci heaps gain parity; however, even on very dense small to mid sized graphs, binary heaps have a slight edge and linear search outperforms all heap structures. Pairing heaps are consistently better than Fibonacci heaps.
 
 ## Heaps included
 
@@ -19,11 +19,11 @@ Linux/Mac
 
 ```zsh
 cd ./heap
-chmod 755 ./app/start.py  # give permission for the script to run
-./app/start.py
+chmod 755 ./app/main.py  # give permission for the script to run
+./app/main.py
 ```
 
-I'm not sure how to do this on Windows. Older versions of Python 3 do not support some of the type hinting used.
+Older versions of Python 3 do not support some of the type hinting used; removing type hinting should make the code compatible with all versions of Python 3.
 
 Check out the wiki to see all commands.
 
@@ -49,7 +49,7 @@ Largely copied from _Introduction to Algorithms_ by Cormen et al., 2009.
 The Python scripts have a lot of comments that hopefully explain what's going on. Here's the project structure and some notable files to get started (it's a mess, can someone show me how to make a Python app?).
 
 - `app/` Contains the heap CLI runtime tester
-  - `start.py` Starts the CLI app
+  - `main.py` Starts the CLI app
 - `config/` Contains config files used to generate tests
   - `graph-example.txt` An example config file for making a test graph.
   - `heap-example.txt` An example config file for heap operation tests.
