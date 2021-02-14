@@ -1,0 +1,4 @@
+type      graph
+name      dense
+vertices  2500
+edges     1000000

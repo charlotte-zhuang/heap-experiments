@@ -1,0 +1,6 @@
+type    heap
+name    decrease-light
+size    0
+op      10000000
+addfreq 10
+decfreq 50

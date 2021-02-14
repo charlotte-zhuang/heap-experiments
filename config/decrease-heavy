@@ -1,0 +1,6 @@
+type    heap
+name    decrease-heavy
+size    1000
+op      10000000
+addfreq 10
+decfreq 2000

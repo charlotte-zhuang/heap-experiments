@@ -1,0 +1,4 @@
+type      graph
+name      sparse
+vertices  100000
+edges     5000000

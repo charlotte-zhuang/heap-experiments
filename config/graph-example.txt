@@ -1,0 +1,24 @@
+# Example graph config file
+#
+# This file can use any extension, just encode in UTF and use lowercase letters only.
+#
+# To generate a graph with this config, use the command 'gen graph-example.txt'
+# in the heap app.
+#
+# Default values (seen here) are used for omitted parameters.
+#
+# Numbers cannot have commas or other decoration.
+#
+# Format: <param> <value>
+
+type        graph       # Required.
+
+name        test-name   # If omitted, defaults to the config filename, in
+                        # this case 'graph-example.txt'.
+
+vertices    100000      # Number of vertices.
+edges       1000000     # Number of edges. A minimum of vertices - 1 edges
+                        # will be used to connect the graph.
+
+minweight   0           # Dijkstra's algorithm only works with non-negative weights.
+maxweight   1000000000

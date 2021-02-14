@@ -1,0 +1,27 @@
+# Example heap test config file
+#
+# This file can use any extension, just encode in UTF and use lowercase letters only.
+#
+# To generate test data with this config, use the command 'gen heap-example.txt'
+# in the heap app.
+#
+# Default values (seen here) are used for omitted parameters.
+#
+# Numbers cannot have commas or other decoration.
+#
+# Format: <param> <value>
+
+type      heap        # Required.
+
+name      test-name   # If omitted, defaults to the config filename, in
+                      # this case 'heap-example.txt'.
+
+size      0           # Initial heap size.
+op        1000000     # Number of operations (add, decrease key, pop min),
+
+addfreq   1   # Weight given to add/decrease/pop operations
+decfreq   1   # The chance of each operation being chosen is weight / total,
+popfreq   1   # but an add operation is forced when the heap is empty.
+
+minval    -1000000000 # Minimum value to store in the heap.
+maxval    1000000000  # Maximum value to store in the heap.

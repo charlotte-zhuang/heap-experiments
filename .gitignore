@@ -1,0 +1,9 @@
+data/*
+!data/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+
+# misc
+.DS_Store

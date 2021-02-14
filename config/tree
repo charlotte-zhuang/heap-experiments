@@ -1,0 +1,4 @@
+type      graph
+name      tree
+vertices  100000
+edges     0
