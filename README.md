@@ -1,4 +1,4 @@
-# Heaps
+# Heap Experiments
 
 This is a work in progress to test the performance of different heap structures against each other.
 
@@ -9,6 +9,11 @@ Initial testing suggests that binary heaps are really good. With enough decrease
 1. Binary
 2. Fibonacci
 3. Pairing
+
+## Tests included
+
+1. Dijkstra's Single Source Shortest Path
+2. Sequential heap operations
 
 ## Usage
 
