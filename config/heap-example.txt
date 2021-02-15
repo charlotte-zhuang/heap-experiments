@@ -1,6 +1,6 @@
 # Example heap test config file
 #
-# This file can use any extension, just encode in UTF and use lowercase letters only.
+# This file can use any extension, just encode in UTF-8 and use lowercase letters only.
 #
 # To generate test data with this config, use the command 'gen heap-example.txt'
 # in the heap app.
@@ -17,7 +17,7 @@ name      test-name   # If omitted, defaults to the config filename, in
                       # this case 'heap-example.txt'.
 
 size      0           # Initial heap size.
-op        1000000     # Number of operations (add, decrease key, pop min),
+op        1000000     # Number of operations (add, decrease key, pop min).
 
 addfreq   1   # Weight given to add/decrease/pop operations
 decfreq   1   # The chance of each operation being chosen is weight / total,

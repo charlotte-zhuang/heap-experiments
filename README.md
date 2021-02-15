@@ -49,19 +49,6 @@ The following sources were very helpful to make my pairing heap.
 
 Largely copied from _Introduction to Algorithms_ by Cormen et al., 2009.
 
-## Documentation
-
-The Python scripts have a lot of comments that hopefully explain what's going on. Here's the project structure and some notable files to get started (it's a mess, can someone show me how to make a Python app?).
-
-- `app/` Contains the heap CLI runtime tester
-  - `main.py` Starts the CLI app
-- `config/` Contains config files used to generate tests
-  - `graph-example.txt` An example config file for making a test graph.
-  - `heap-example.txt` An example config file for heap operation tests.
-- `data/` Contains generated test data
-- `util/` Contains code for the heaps, graph generators, and algorithms
-- `tests/` Contains some automated tests for functionality
-
 ## Future
 
 1. Redo these tests in C++

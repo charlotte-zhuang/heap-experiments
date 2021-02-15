@@ -1,6 +1,6 @@
 # Example graph config file
 #
-# This file can use any extension, just encode in UTF and use lowercase letters only.
+# This file can use any extension, just encode in UTF-8 and use lowercase letters only.
 #
 # To generate a graph with this config, use the command 'gen graph-example.txt'
 # in the heap app.
