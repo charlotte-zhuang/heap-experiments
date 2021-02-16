@@ -1,0 +1,4 @@
+type      graph
+name      big
+vertices  10000
+edges     10000000

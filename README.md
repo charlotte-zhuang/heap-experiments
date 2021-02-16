@@ -2,7 +2,7 @@
 
 This is a work in progress to test the performance of different heap structures against each other.
 
-Initial testing suggests that binary heaps are really good. With enough decrease key operations and a large enough heap, pairing and Fibonacci heaps gain parity; however, even on very dense small to mid sized graphs, binary heaps have a slight edge and linear search outperforms all heap structures. Pairing heaps are consistently better than Fibonacci heaps.
+Initial testing suggests that binary heaps are really good. With enough decrease key operations and a large enough heap, pairing and Fibonacci heaps gain parity; however, even on very dense small to mid sized graphs, binary heaps have a slight edge. Run times on my laptop approached one minute before pairing and Fibonacci heaps saw an advantage. Between those two, there doesn't seem to be a great difference in run time.
 
 ## Heaps included
 
