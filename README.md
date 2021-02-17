@@ -4,6 +4,10 @@ This is a work in progress to test the performance of different heap structures 
 
 Initial testing suggests that binary heaps are really good. With enough decrease key operations and a large enough heap, pairing and Fibonacci heaps gain parity; however, even on very dense small to mid sized graphs, binary heaps have a slight edge. Run times on my laptop approached one minute before pairing and Fibonacci heaps saw an advantage. Between those two, there doesn't seem to be a great difference in run time.
 
+## Usage
+
+Check out [the wiki](https://github.com/charlotte-zhuang/heap-experiments/wiki).
+
 ## Heaps included
 
 1. Binary
@@ -14,23 +18,6 @@ Initial testing suggests that binary heaps are really good. With enough decrease
 
 1. Dijkstra's Single Source Shortest Path
 2. Sequential heap operations
-
-## Usage
-
-1. Requires Python 3.9, [website](https://www.python.org)
-2. Run `heap-experiments/app/main.py`
-
-Linux/Mac
-
-```zsh
-cd ./heap-experiments
-chmod 755 ./app/main.py  # give permission for the script to run
-./app/main.py
-```
-
-Older versions of Python 3 do not support some of the type hinting used; removing type hinting should make the code compatible with all versions of Python 3.
-
-Check out the wiki to see all commands.
 
 ## About
 
